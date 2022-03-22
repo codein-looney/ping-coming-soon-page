@@ -107,6 +107,9 @@ body {
   border: 1px solid #c2d3ff;
   color: #c2d3ff;
 }
+.notification input [type=text]:focus {
+  color: red;
+}
 @media screen and (max-width: 680px) {
   .notification input {
     width: 70%;

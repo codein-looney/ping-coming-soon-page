@@ -17,6 +17,10 @@
         border: 1px solid $Pal-Blue;
         color: $Pal-Blue;
 
+        [type=text]:focus {
+            color: red;
+        }
+
         @media screen and (max-width: 680px) {
             width: 70%;
         }
