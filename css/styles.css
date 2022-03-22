@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.btn {
+  margin-left: 1em;
+  padding: 0 3.7em;
+  background-color: #4f7df3;
+  border: none;
+  color: whitesmoke;
+  border-radius: 2em;
+  font-size: 0.8em;
+  cursor: pointer;
+  box-shadow: rgba(28, 4, 240, 0.123) 0px 10px 20px, rgba(11, 7, 240, 0.11) 0px 6px 6px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 680px) {
+  .btn {
+    width: 70%;
+    padding: 1.2em;
+    font-size: 0.7em;
+    margin: 1em 0;
+  }
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.wrapper .logo {
+  margin-top: 5em;
+  width: 65px;
+}
+.wrapper .cover {
+  margin: 3.5em 0;
+  width: 30em;
+}
+@media screen and (max-width: 680px) {
+  .wrapper .cover {
+    width: 22em;
+  }
+}
+.wrapper .content {
+  margin: 2em 0;
+}
+@media screen and (max-width: 680px) {
+  .wrapper .content {
+    margin: 2em 0;
+  }
+}
+.wrapper .content .title {
+  font-size: 2.2em;
+  font-weight: 200;
+  color: #979797;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 680px) {
+  .wrapper .content .title {
+    font-size: 1.5em;
+  }
+}
+.wrapper .content .title span {
+  font-weight: 700;
+  color: #151f29;
+  letter-spacing: 0;
+}
+.wrapper .content .subtitle {
+  margin-top: 1em;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #121A22;
+}
+@media screen and (max-width: 680px) {
+  .wrapper .content .subtitle {
+    font-size: 0.7em;
+  }
+}
+
+.notification {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 680px) {
+  .notification {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.notification input {
+  width: 20%;
+  padding: 0.9em 1.5em;
+  border-radius: 2em;
+  border: 1px solid #c2d3ff;
+  color: #c2d3ff;
+}
+@media screen and (max-width: 680px) {
+  .notification input {
+    width: 70%;
+  }
+}
+
+footer {
+  width: 100%;
+}
+footer .socials i {
+  padding: 0.5em;
+  margin-left: 1em;
+  border: 1px solid #c2d3ff;
+  color: #4f7df3;
+  font-size: 0.7em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer .socials i:nth-child(1) {
+  padding: 5.5px 8px;
+}
+footer .socials i:hover {
+  color: white;
+  background-color: #4f7df3;
+}
+footer .attribution {
+  margin-top: 2em;
+  font-size: 0.6em;
+  color: #979797;
+}
+
+/*# sourceMappingURL=styles.css.map */

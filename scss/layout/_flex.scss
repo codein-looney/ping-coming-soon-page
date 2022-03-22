@@ -1,0 +1,63 @@
+@use '../sass-utils/variables' as *;
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .logo {
+        margin-top: 5em;
+        width: 65px;
+    }
+
+    .cover {
+        margin: 3.5em 0;
+        width: 30em;
+
+        @media screen and (max-width: 680px) {
+            width: 22em;
+        }
+    }
+
+    .content {
+        margin: 2em 0;
+
+        @media screen and (max-width: 680px) {
+            margin: 2em 0;
+            }
+
+        .title {
+            font-size: 2.2em;
+            font-weight: 200;
+            color: #979797;
+            letter-spacing: 1px;
+
+        @media screen and (max-width: 680px) {
+            font-size: 1.5em;
+        }
+            
+
+
+            span {
+                font-weight: 700;
+                color: $Ver-Dark-Blue;
+                letter-spacing: 0;
+            }
+        }
+
+        .subtitle {
+            margin-top: 1em;
+            font-size: .9em;
+            font-weight: 300;
+            color: #121A22;
+
+            @media screen and (max-width: 680px) {
+                font-size: .7em;
+            }
+            
+        }
+    }
+}

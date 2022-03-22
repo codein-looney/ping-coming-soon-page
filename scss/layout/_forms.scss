@@ -1,0 +1,24 @@
+@use '../sass-utils/variables' as *;
+
+.notification {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 680px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 20%;
+        padding: .9em 1.5em;
+        border-radius: 2em;
+        border: 1px solid $Pal-Blue;
+        color: $Pal-Blue;
+
+        @media screen and (max-width: 680px) {
+            width: 70%;
+        }
+    }
+}

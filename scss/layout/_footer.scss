@@ -1,0 +1,29 @@
+@use '../sass-utils/variables' as *; 
+footer {
+    width: 100%;
+
+    .socials i {
+        padding: .5em;;
+        margin-left: 1em;
+        border: 1px solid $Pal-Blue;
+        color: $Blue;
+        font-size: .7em;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:nth-child(1) {
+            padding: 5.5px 8px;
+        }
+
+        &:hover {
+            color: white;
+            background-color: $Blue;
+        }
+    }
+
+    .attribution {
+        margin-top: 2em;
+        font-size: .6em;
+        color: #979797;
+    }
+}
